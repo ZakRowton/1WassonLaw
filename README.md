@@ -1,119 +1,85 @@
-# 1WassonLaw
+# Wasson Law
 
-**Kyle B. Wasson — Criminal Defense Attorney**
+Professional dark-themed website for Kyle B. Wasson, Criminal Defense Attorney.
 
-A premium, dark-themed single-page website for criminal defense attorney Kyle B. Wasson. Built with a luxury aesthetic featuring gold accents, glassmorphism panels, and smooth scroll-triggered animations.
+## Overview
 
----
+A modern, single-page attorney website featuring a luxurious dark theme with gold accents. Designed to convey trust, professionalism, and authority in criminal defense law.
 
-## Live Demo
+## Features
 
-🌐 [https://zakrowton.github.io/1WassonLaw](https://zakrowton.github.io/1WassonLaw) *(GitHub Pages — enable in repo settings)*
-
----
+- **Dark Luxury Theme**: Deep black backgrounds with elegant gold (#D4AF37) accents
+- **Responsive Design**: Fully responsive across desktop, tablet, and mobile devices
+- **Smooth Animations**: Scroll-triggered fade-in animations and hover effects
+- **Mobile Navigation**: Hamburger menu with smooth toggle animation
+- **Professional Sections**:
+  - Navigation bar with scroll-aware background
+  - Hero section with attorney introduction
+  - About section with professional background
+  - Practice Areas (8 criminal defense specialties)
+  - Why Choose Us highlights
+  - Client Testimonials
+  - Contact Form
+  - Footer with contact information
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Markup | HTML5 (semantic sections) |
-| Styling | CSS3 (CSS variables, flexbox, grid, backdrop-filter) |
-| Fonts | Google Fonts — Cinzel (display/headings), Playfair Display (body) |
-| Icons | Font Awesome 6 (CDN) |
-| Animation | CSS keyframes + Intersection Observer API |
-| Interactivity | Vanilla JavaScript (ES6+) |
-| Hosting | GitHub Pages |
+- **HTML5**: Semantic markup with accessibility considerations
+- **CSS3**: Custom properties, Flexbox, Grid, backdrop-filter, animations
+- **JavaScript**: Vanilla JS for interactions and animations
+- **Google Fonts**: Cinzel (headings), Playfair Display (body)
+- **Font Awesome**: Professional icons throughout
 
----
-
-## File Tree
+## File Structure
 
 ```
 1WassonLaw/
 ├── index.html          # Main single-page website
 ├── css/
-│   └── styles.css      # Complete dark luxury theme
+│   └── styles.css      # All styles, variables, animations, responsive breakpoints
 ├── js/
-│   └── main.js         # Interactivity & scroll animations
+│   └── main.js         # Mobile menu, smooth scroll, scroll animations, form handler
 └── README.md           # Project documentation
 ```
 
----
+## Setup Instructions
 
-## Website Sections
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ZakRowton/1WassonLaw.git
+   cd 1WassonLaw
+   ```
 
-| # | Section | Description |
-|---|---------|-------------|
-| 1 | **Navigation** | Fixed glassmorphism navbar with gold-accented links and mobile hamburger menu |
-| 2 | **Hero** | Full-screen dark gradient with attorney name, tagline, and CTA button |
-| 3 | **About** | Attorney biography placeholder with circular photo placeholder |
-| 4 | **Practice Areas** | 8-card responsive grid (DUI/DWI, Drug Crimes, Violent Crimes, White Collar, Theft, Weapons, Domestic Violence, Juvenile) |
-| 5 | **Why Choose Us** | 4-pillar feature grid (Experience, Personalized Attention, Proven Results, 24/7 Availability) |
-| 6 | **Testimonials** | 3 placeholder client review cards with star ratings |
-| 7 | **Contact** | Functional contact form + office info placeholder |
-| 8 | **Footer** | Quick links, copyright, legal disclaimer |
+2. **Open in browser**:
+   - Simply open `index.html` in any modern web browser
+   - Or serve with a local development server:
+     ```bash
+     # Using Python
+     python -m http.server 8000
+     
+     # Using Node.js (npx)
+     npx serve .
+     ```
 
----
+3. **No build step required**:
+   - This is a static website with no dependencies to install
+   - All external resources (fonts, icons) are loaded via CDN
 
-## Design System
+## Customization
 
-### Colors
-| Token | Hex | Usage |
-|-------|-----|-------|
-| Gold | `#D4AF37` | Primary accent, headings, borders, buttons |
-| Gold Light | `#F9F1D8` | Body text, secondary accents |
-| Gold Dim | `#8a7326` | Muted elements, placeholders |
-| Black | `#030303` | Page background |
-| Panel BG | `rgba(10,10,10,0.6)` | Glass panels |
+- **Colors**: Edit CSS variables in `css/styles.css` under `:root`
+- **Content**: Update text and attorney information directly in `index.html`
+- **Practice Areas**: Modify the 8 card sections in the Practice Areas grid
+- **Contact Info**: Update email, phone, and address in the Contact and Footer sections
 
-### Typography
-- **Display / Headings**: Cinzel (400, 700, 900)
-- **Body / UI**: Playfair Display (400, 600; italic 400)
+## Browser Support
 
-### Effects
-- Glassmorphism: `backdrop-filter: blur(12px)` + gold-tinted borders
-- Hero gradient: `radial-gradient(circle at top center, #1F1512 0%, #000000 100%)`
-- Animations: fadeInUp, pulseSlow, shine
-
----
-
-## Placeholder Content Notes
-
-> ⚠️ The following items contain placeholder data and **must be updated** before launch:
-
-| Item | Current Placeholder | Action Needed |
-|------|---------------------|---------------|
-| Attorney Bio | Lorem ipsum text | Replace with Kyle B. Wasson's real biography |
-| Attorney Photo | CSS-generated placeholder circle | Add professional headshot |
-| Office Address | "123 Main St, City, ST 12345" | Update to real office address |
-| Phone Number | "(555) 123-4567" | Update to real business phone |
-| Email | "info@wassonlaw.com" | Confirm and update if needed |
-| Testimonials | Fictional client names & quotes | Replace with real client testimonials (with permission) |
-| Practice Area Descriptions | Generic placeholder copy | Customize to reflect actual case experience |
-| Social Media Links | `#` placeholders | Add real profile URLs |
-| Google Maps Embed | Placeholder coordinates | Embed real office location |
-| Meta Description | Generic SEO text | Write custom meta description for SEO |
-| Favicon | Default | Add custom favicon |
-
----
-
-## Future Enhancements
-
-- [ ] Add real attorney biography and professional headshot
-- [ ] Integrate live Google Maps embed with office location
-- [ ] Connect contact form to backend (Formspree, Netlify Forms, or custom PHP)
-- [ ] Add blog / legal insights section
-- [ ] Implement case results / verdicts showcase
-- [ ] Add schema.org structured data for local SEO
-- [ ] Accessibility audit (WCAG 2.1 AA)
-- [ ] Performance optimization (image lazy loading, critical CSS)
-
----
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## License
 
-© 2026 Kyle B. Wasson. All rights reserved.
-
----
-
-*Built for 1WassonLaw — aggressive criminal defense when it matters most.*
+This project is proprietary and created for Wasson Law.
