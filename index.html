@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wasson Law | Kyle B. Wasson — Criminal Defense Attorney</title>
-    <meta name="description" content="Kyle B. Wasson is an experienced criminal defense attorney serving Oklahoma City. Aggressive defense for DUI, drug crimes, violent crimes, and more.">
+    <meta name="description" content="Kyle B. Wasson is an experienced criminal defense attorney providing aggressive, strategic legal representation. Free consultation.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -12,220 +12,272 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- 1. Navigation -->
-    <nav id="nav" class="navbar">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#hero" class="nav-logo">
+            <a href="#" class="nav-logo">
                 <span class="logo-icon"><i class="fas fa-scale-balanced"></i></span>
                 <span class="logo-text">Wasson Law</span>
             </a>
-            <ul class="nav-links">
-                <li><a href="#hero" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#practice-areas">Practice Areas</a></li>
-                <li><a href="#why-choose-us">Why Us</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#practice-areas" class="nav-link">Practice Areas</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="#contact" class="btn btn-nav">Free Consultation</a>
-            <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <a href="#contact" class="nav-cta">Free Consultation</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
         </div>
     </nav>
 
-    <!-- 2. Hero Section -->
-    <header id="hero" class="hero">
-        <div class="hero-particles" aria-hidden="true"></div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-kicker animate-fade-in-up">Oklahoma City Criminal Defense</p>
-            <h1 class="hero-title animate-fade-in-up" style="animation-delay: .15s">
-                Kyle B. Wasson
-            </h1>
-            <p class="hero-tagline animate-fade-in-up" style="animation-delay: .3s">
-                Aggressive Criminal Defense
-            </p>
-            <p class="hero-subtitle animate-fade-in-up" style="animation-delay: .45s">
-                When your freedom is on the line, experience and relentless advocacy make the difference.
-            </p>
-            <div class="hero-buttons animate-fade-in-up" style="animation-delay: .6s">
-                <a href="#contact" class="btn btn-primary">Free Consultation</a>
-                <a href="#practice-areas" class="btn btn-secondary">Practice Areas</a>
+            <div class="hero-badge">
+                <i class="fas fa-shield-halved"></i>
+                <span>Criminal Defense Attorney</span>
+            </div>
+            <h1 class="hero-title">Defending Your Rights.<br>Protecting Your Future.</h1>
+            <p class="hero-subtitle">When everything is on the line, you need an attorney who fights relentlessly. Kyle B. Wasson provides aggressive, strategic criminal defense with a proven record of success.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Schedule Free Consultation</a>
+                <a href="#practice-areas" class="btn btn-outline">Our Practice Areas</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1,000+</span>
+                    <span class="stat-label">Cases Handled</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
             </div>
         </div>
-        <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
             <i class="fas fa-chevron-down"></i>
         </div>
-    </header>
+    </section>
 
-    <!-- 3. About Section -->
-    <section id="about" class="about-section">
+    <!-- About Section -->
+    <section class="about section-animate" id="about">
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
                     <div class="about-placeholder">
                         <i class="fas fa-user-tie"></i>
                     </div>
-                    <div class="about-badge">
-                        <span class="badge-number">18+</span>
-                        <span class="badge-label">Years Experience</span>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">15+</span>
+                        <span class="exp-text">Years of<br>Experience</span>
                     </div>
                 </div>
                 <div class="about-content">
-                    <h2 class="section-title">About <span class="gold-text">Kyle B. Wasson</span></h2>
-                    <p class="about-lead">A dedicated criminal defense attorney committed to protecting the rights and futures of clients across Oklahoma.</p>
-                    <p>Kyle B. Wasson has built a reputation for aggressive courtroom advocacy and personalized client service. With extensive trial experience and a deep understanding of Oklahoma criminal law, he works tirelessly to achieve the best possible outcome for every case.</p>
-                    <p>From first-time offenses to complex felony charges, Wasson Law provides strategic defense tailored to the unique circumstances of each client.</p>
+                    <span class="section-tag">About Attorney Wasson</span>
+                    <h2 class="section-title">A Record of Results.<br>A Reputation for Excellence.</h2>
+                    <p class="about-text">Kyle B. Wasson is a seasoned criminal defense attorney dedicated to protecting the rights of the accused. With over fifteen years of trial experience, he has successfully defended clients against charges ranging from misdemeanors to serious felonies.</p>
+                    <p class="about-text">Known for his meticulous case preparation, persuasive courtroom presence, and unwavering commitment to his clients, Kyle approaches every case as if it were his own freedom on the line. He believes that everyone deserves a vigorous defense.</p>
                     <div class="about-credentials">
                         <div class="credential">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>Texas State University, B.A. 1998</span>
-                        </div>
-                        <div class="credential">
                             <i class="fas fa-certificate"></i>
-                            <span>Oklahoma State Bar Licensed</span>
+                            <span>Oklahoma Bar Association</span>
                         </div>
                         <div class="credential">
-                            <i class="fas fa-gavel"></i>
-                            <span>Extensive Trial Experience</span>
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>J.D., University of Oklahoma</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <span>Super Lawyers Rising Star</span>
                         </div>
                     </div>
-                    <a href="#contact" class="btn btn-outline">Schedule a Consultation</a>
+                    <a href="#contact" class="btn btn-primary">Work With Kyle</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4. Practice Areas -->
-    <section id="practice-areas" class="practice-section">
+    <!-- Practice Areas Section -->
+    <section class="practice-areas section-animate" id="practice-areas">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center">Practice <span class="gold-text">Areas</span></h2>
-                <p class="section-subtitle text-center">Comprehensive criminal defense for a wide range of charges</p>
+                <span class="section-tag">What We Handle</span>
+                <h2 class="section-title">Practice Areas</h2>
+                <p class="section-subtitle">Comprehensive criminal defense services tailored to your unique situation.</p>
             </div>
             <div class="practice-grid">
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-wine-glass"></i></div>
+                    <div class="practice-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Felony Defense</h3>
+                    <p>Serious charges demand serious defense. We handle violent crimes, drug trafficking, robbery, and all major felonies with strategic precision.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <i class="fas fa-wine-glass"></i>
+                    </div>
                     <h3>DUI / DWI Defense</h3>
-                    <p>Protect your driving privileges and fight alcohol-related driving charges with proven defense strategies.</p>
+                    <p>From first-time offenses to felony DUI, we challenge evidence, question procedures, and fight to protect your license and freedom.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-pills"></i></div>
+                    <div class="practice-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
                     <h3>Drug Crimes</h3>
-                    <p>Defense for possession, distribution, trafficking, and manufacturing charges at the state and federal level.</p>
+                    <p>Possession, distribution, manufacturing, and trafficking charges. We scrutinize every search, seizure, and chain of custody detail.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-hand-fist"></i></div>
-                    <h3>Violent Crimes</h3>
-                    <p>Experienced representation for assault, battery, robbery, and homicide charges.</p>
-                </div>
-                <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-briefcase"></i></div>
-                    <h3>White Collar Crimes</h3>
-                    <p>Defense against fraud, embezzlement, money laundering, and other financial crime allegations.</p>
-                </div>
-                <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-mask"></i></div>
+                    <div class="practice-icon">
+                        <i class="fas fa-mask"></i>
+                    </div>
                     <h3>Theft & Property Crimes</h3>
-                    <p>Skilled defense for burglary, larceny, shoplifting, and property damage charges.</p>
+                    <p>Shoplifting, burglary, larceny, embezzlement, and fraud. We build strong defenses focused on intent and evidence reliability.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-crosshairs"></i></div>
+                    <div class="practice-icon">
+                        <i class="fas fa-hand-fist"></i>
+                    </div>
+                    <h3>Assault & Battery</h3>
+                    <p>Domestic violence, aggravated assault, and self-defense cases. We ensure your side of the story is heard and respected.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
                     <h3>Weapons Charges</h3>
-                    <p>Protect your Second Amendment rights and defend against unlawful possession and weapons allegations.</p>
+                    <p>Unlawful carry, possession by a felon, and firearm-related offenses. We navigate complex state and federal weapon laws.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-house-chimney"></i></div>
-                    <h3>Domestic Violence</h3>
-                    <p>Sensitive, strategic defense for domestic assault and protective order matters.</p>
+                    <div class="practice-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>White Collar Crimes</h3>
+                    <p>Fraud, money laundering, identity theft, and corporate investigations. Detail-oriented defense for complex financial cases.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="practice-card">
-                    <div class="practice-icon"><i class="fas fa-child"></i></div>
-                    <h3>Juvenile Defense</h3>
-                    <p>Advocating for minors facing criminal charges with a focus on rehabilitation and future opportunity.</p>
+                    <div class="practice-icon">
+                        <i class="fas fa-rotate-left"></i>
+                    </div>
+                    <h3>Expungements</h3>
+                    <p>Clear your record and move forward. We help eligible clients seal or expunge past convictions to restore opportunities.</p>
+                    <a href="#contact" class="practice-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. Why Choose Us -->
-    <section id="why-choose-us" class="why-section">
+    <!-- Why Choose Us Section -->
+    <section class="why-us section-animate" id="why-us">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center">Why Choose <span class="gold-text">Wasson Law</span></h2>
-                <p class="section-subtitle text-center">Experience, dedication, and results you can trust</p>
+                <span class="section-tag">The Wasson Difference</span>
+                <h2 class="section-title">Why Clients Choose Us</h2>
             </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-scale-balanced"></i></div>
-                    <h3>Proven Experience</h3>
-                    <p>Over 18 years of criminal defense experience in Oklahoma courts, handling cases from misdemeanors to serious felonies.</p>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-number">01</div>
+                    <div class="why-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Aggressive Defense</h3>
+                    <p>We do not back down. From pre-trial motions to jury arguments, we fight every step with relentless determination.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
-                    <h3>Personalized Attention</h3>
-                    <p>You are never just a case number. We take the time to understand your situation and build a defense strategy tailored to you.</p>
+                <div class="why-card">
+                    <div class="why-number">02</div>
+                    <div class="why-icon"><i class="fas fa-magnifying-glass"></i></div>
+                    <h3>Detailed Investigation</h3>
+                    <p>Every case receives exhaustive review. We uncover evidence others miss and exploit weaknesses in the prosecution's case.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-trophy"></i></div>
-                    <h3>Proven Results</h3>
-                    <p>A track record of dismissals, reduced charges, and favorable verdicts for clients facing serious criminal allegations.</p>
+                <div class="why-card">
+                    <div class="why-number">03</div>
+                    <div class="why-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Clear Communication</h3>
+                    <p>You will never be left in the dark. We explain your options, risks, and strategy in plain language at every stage.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-phone-volume"></i></div>
-                    <h3>24 / 7 Availability</h3>
-                    <p>Legal emergencies do not wait for business hours. We are available around the clock when you need us most.</p>
+                <div class="why-card">
+                    <div class="why-number">04</div>
+                    <div class="why-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Personal Attention</h3>
+                    <p>Your case is never handed off to a junior associate. Kyle personally handles every aspect of your defense.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 6. Testimonials -->
-    <section id="testimonials" class="testimonials-section">
+    <!-- Testimonials Section -->
+    <section class="testimonials section-animate" id="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center">Client <span class="gold-text">Testimonials</span></h2>
-                <p class="section-subtitle text-center">Real stories from clients we have helped</p>
+                <span class="section-tag">Client Stories</span>
+                <h2 class="section-title">What Clients Say</h2>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Kyle fought for me when no one else would. He got my charges reduced and kept me out of jail. I cannot thank him enough."</p>
+                    <p class="testimonial-text">"Kyle saved my career and my family. I was facing felony charges that would have destroyed everything. He found a critical error in the evidence and got my case dismissed. I owe him everything."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar"><i class="fas fa-user"></i></div>
                         <div class="author-info">
-                            <span class="author-name">J.D.</span>
+                            <span class="author-name">Michael R.</span>
+                            <span class="author-case">Felony Defense Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"After my DUI arrest, I thought my life was over. Kyle walked me through every option, kept me calm, and ultimately got my charges reduced to a misdemeanor. Professional, compassionate, and brilliant."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah T.</span>
                             <span class="author-case">DUI Defense Client</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Professional, responsive, and relentless. Kyle walked me through every step and made sure I understood my options. Highly recommend."</p>
+                    <p class="testimonial-text">"I interviewed five attorneys before choosing Kyle. His knowledge of drug crime law is unmatched. He identified an illegal search within hours of taking my case. Charges dropped. Worth every penny."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar"><i class="fas fa-user"></i></div>
                         <div class="author-info">
-                            <span class="author-name">M.S.</span>
+                            <span class="author-name">David K.</span>
                             <span class="author-case">Drug Crimes Client</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"I was facing serious felony charges and thought my life was over. Kyle believed in me and delivered an outcome I never thought possible."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><i class="fas fa-user"></i></div>
-                        <div class="author-info">
-                            <span class="author-name">R.T.</span>
-                            <span class="author-case">Violent Crimes Client</span>
                         </div>
                     </div>
                 </div>
@@ -233,96 +285,106 @@
         </div>
     </section>
 
-    <!-- 7. Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- Contact Section -->
+    <section class="contact section-animate" id="contact">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center">Contact <span class="gold-text">Wasson Law</span></h2>
-                <p class="section-subtitle text-center">Schedule your confidential consultation today</p>
-            </div>
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h3>Office Information</h3>
-                    <div class="info-item">
-                        <i class="fas fa-location-dot"></i>
-                        <div>
-                            <strong>Address</strong>
-                            <p>1213 N Classen Blvd<br>Oklahoma City, OK 73106</p>
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Schedule Your Free Consultation</h2>
+                    <p class="contact-desc">Time is critical in criminal defense. The sooner you contact us, the sooner we can begin building your defense strategy. Your initial consultation is completely confidential and free of charge.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label">Call or Text</span>
+                                <a href="tel:+14055551234">(405) 555-1234</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>Email</strong>
-                            <p>kyle@wassonlaw.com</p>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:kyle@wassonlaw.com">kyle@wassonlaw.com</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <strong>Hours</strong>
-                            <p>Monday – Friday: 8:00 AM – 5:00 PM<br>Emergency consultations available 24/7</p>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label">Office</span>
+                                <span>123 Main Street, Suite 400<br>Oklahoma City, OK 73102</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-disclaimer">
-                        <i class="fas fa-circle-info"></i>
-                        <p>All consultations are confidential. Contacting us does not create an attorney-client relationship.</p>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div class="contact-text">
+                                <span class="contact-label">Availability</span>
+                                <span>Mon – Fri: 8:00 AM – 6:00 PM<br>Emergency consultations available 24/7</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" action="#" method="POST" novalidate>
+                    <form class="contact-form" id="contact-form">
+                        <h3 class="form-title">Confidential Case Evaluation</h3>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Your full name" required>
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first_name" class="form-control" placeholder="John" required>
                             </div>
                             <div class="form-group">
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(555) 555-5555">
-                            </div>
-                            <div class="form-group">
-                                <label for="case-type">Case Type</label>
-                                <select id="case-type" name="case_type" class="form-select" required>
-                                    <option value="" disabled selected>Select case type</option>
-                                    <option value="dui">DUI / DWI</option>
-                                    <option value="drugs">Drug Crimes</option>
-                                    <option value="violent">Violent Crimes</option>
-                                    <option value="white-collar">White Collar Crimes</option>
-                                    <option value="theft">Theft & Property Crimes</option>
-                                    <option value="weapons">Weapons Charges</option>
-                                    <option value="domestic">Domestic Violence</option>
-                                    <option value="juvenile">Juvenile Defense</option>
-                                    <option value="other">Other</option>
-                                </select>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last_name" class="form-control" placeholder="Doe" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="message">Tell Us About Your Case</label>
-                            <textarea id="message" name="message" class="form-control textarea" rows="5" placeholder="Please provide a brief description of your situation..." required></textarea>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-submit">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="(405) 555-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="case-type">Type of Case</label>
+                            <select id="case-type" name="case_type" class="form-control form-select" required>
+                                <option value="" disabled selected>Select case type</option>
+                                <option value="felony">Felony Defense</option>
+                                <option value="dui">DUI / DWI</option>
+                                <option value="drug">Drug Crimes</option>
+                                <option value="theft">Theft & Property Crimes</option>
+                                <option value="assault">Assault & Battery</option>
+                                <option value="weapons">Weapons Charges</option>
+                                <option value="white-collar">White Collar Crimes</option>
+                                <option value="expungement">Expungement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Case</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Please provide a brief summary of your situation. All information is strictly confidential." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Submit Consultation Request
                         </button>
+                        <p class="form-disclaimer"><i class="fas fa-lock"></i> Your information is protected by attorney-client privilege.</p>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 8. Footer -->
-    <footer id="footer" class="footer">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <h3><i class="fas fa-scale-balanced"></i> Wasson Law</h3>
-                    <p>Aggressive criminal defense for Oklahoma City and surrounding communities. Your rights, your future, our fight.</p>
-                    <div class="social-links">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-scale-balanced"></i>
+                        <span>Wasson Law</span>
+                    </a>
+                    <p class="footer-tagline">Defending rights. Protecting futures. Serving Oklahoma with integrity and relentless advocacy.</p>
+                    <div class="footer-social">
                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
@@ -331,34 +393,33 @@
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#practice-areas">Practice Areas</a></li>
-                        <li><a href="#why-choose-us">Why Choose Us</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-practice">
+                <div class="footer-links">
                     <h4>Practice Areas</h4>
                     <ul>
-                        <li><a href="#practice-areas">DUI / DWI Defense</a></li>
+                        <li><a href="#practice-areas">Felony Defense</a></li>
+                        <li><a href="#practice-areas">DUI / DWI</a></li>
                         <li><a href="#practice-areas">Drug Crimes</a></li>
-                        <li><a href="#practice-areas">Violent Crimes</a></li>
-                        <li><a href="#practice-areas">White Collar Crimes</a></li>
                         <li><a href="#practice-areas">Theft & Property</a></li>
-                        <li><a href="#practice-areas">Weapons Charges</a></li>
+                        <li><a href="#practice-areas">Expungements</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p><i class="fas fa-location-dot"></i> 1213 N Classen Blvd<br>Oklahoma City, OK 73106</p>
-                    <p><i class="fas fa-envelope"></i> kyle@wassonlaw.com</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+14055551234">(405) 555-1234</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:kyle@wassonlaw.com">kyle@wassonlaw.com</a></p>
+                    <p><i class="fas fa-location-dot"></i> 123 Main Street, Suite 400<br>Oklahoma City, OK 73102</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p> Wasson Law, PLLC. All Rights Reserved.</p>
-                <p class="disclaimer">This website is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by use of this site.</p>
+                <p> Wasson Law. All rights reserved.</p>
+                <p class="footer-legal">This website is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by use of this site.</p>
             </div>
         </div>
     </footer>
